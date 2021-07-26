@@ -13,3 +13,7 @@ How to use
 * Run the script with root permissions
 
         source ./path/to/script.sh
+
+Some of these scripts make modifications to the user and will require a re-login of the user to take effect.
+
+        su {$USER}

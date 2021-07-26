@@ -9,6 +9,7 @@ sudo snap install kubectl --classic
 #not required
 USERNAME=will
 echo alias k="kubectl" >> /home/${USERNAME}/.bashrc
+echo "You will now have to log out of ${USERNAME} and log back in."
 
 
 #install kind
