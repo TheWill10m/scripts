@@ -2,7 +2,7 @@
 
 #update
 apt update
-apt full-upgrade
+apt full-upgrade -y
 
 #enable firewall with ssh allowed
 ufw allow ssh
