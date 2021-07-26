@@ -9,4 +9,4 @@ ufw allow ssh
 ufw --force enable
 
 #install basic programs
-apt install snap net-tools
+apt install snap net-tools -y

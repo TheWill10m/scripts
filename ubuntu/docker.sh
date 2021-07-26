@@ -7,7 +7,7 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu fo
 apt update
 
 #Install
-apt install docker-ce
+apt install docker-ce -y
 
 #Add user to docker group
 #Not required
