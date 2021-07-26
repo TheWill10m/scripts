@@ -10,10 +10,6 @@ How to use
 
         git clone https://github.com/TheWill10m/avms.git
 
-* Find the script you want to run
-
-        cd <directory>
-
 * Run the script with root permissions
 
-        bash <script_name>.sh
+        source ./path/to/script.sh
