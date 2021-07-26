@@ -14,3 +14,4 @@ apt install -y docker-ce
 USERNAME=will
 groupadd docker
 usermod -aG docker ${USERNAME}
+echo "You will now have to log out of ${USERNAME} and log back in."
