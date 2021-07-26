@@ -8,5 +8,5 @@ apt full-upgrade
 ufw allow ssh
 ufw enable
 
-#install snap
-apt install snap
+#install basic programs
+apt install snap net-tools
