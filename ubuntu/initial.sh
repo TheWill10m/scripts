@@ -6,7 +6,7 @@ apt full-upgrade -y
 
 #enable firewall with ssh allowed
 ufw allow ssh
-ufw enable
+ufw --force enable
 
 #install basic programs
 apt install snap net-tools

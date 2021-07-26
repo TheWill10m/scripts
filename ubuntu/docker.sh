@@ -11,5 +11,5 @@ apt install docker-ce
 
 #Add user to docker group
 #Not required
-usermod -aG docker ${USER}
-source ~/.bashrc
+username=will
+usermod -aG docker ${USERNAME}
