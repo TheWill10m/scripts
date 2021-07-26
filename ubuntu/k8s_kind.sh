@@ -7,7 +7,7 @@ sudo snap install kubectl --classic
 
 #add alias for kubectl
 #not required
-username=will
+USERNAME=will
 echo alias k="kubectl" >> /home/${USERNAME}/.bashrc
 
 
