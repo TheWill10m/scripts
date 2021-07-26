@@ -7,3 +7,6 @@ apt full-upgrade
 #enable firewall with ssh allowed
 ufw allow ssh
 ufw enable
+
+#install snap
+apt install snap
