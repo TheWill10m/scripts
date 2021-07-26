@@ -15,5 +15,5 @@ echo alias k="kubectl" >> /home/${USERNAME}/.bashrc
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64
 chmod +x ./kind
 #add to path
-mv ./kind /usr/loca/bin/kind
+mv ./kind /usr/local/bin/kind
 
